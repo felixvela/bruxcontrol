@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  bruxcontrol-web:
+    build: .
+    container_name: bruxcontrol-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.bruxcontrol.rule=Host(`bruxcontrol.app`) || Host(`www.bruxcontrol.app`)"
+      - "traefik.http.routers.bruxcontrol.entrypoints=websecure"
+      - "traefik.http.routers.bruxcontrol.tls.certresolver=letsencrypt"
+      - "traefik.http.services.bruxcontrol.loadbalancer.server.port=80"
+      # Redirect www to non-www
+      - "traefik.http.middlewares.bruxcontrol-redirect.redirectregex.regex=^https://www\\.bruxcontrol\\.app/(.*)"
+      - "traefik.http.middlewares.bruxcontrol-redirect.redirectregex.replacement=https://bruxcontrol.app/$${1}"
+      - "traefik.http.routers.bruxcontrol.middlewares=bruxcontrol-redirect"
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
