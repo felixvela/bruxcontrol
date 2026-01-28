@@ -1,0 +1,172 @@
+{
+  "lang": "ja",
+  "lang_name": "日本語",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - 歯ぎしり対策のパートナー。パーソナライズされたエクササイズ、Apple Watchによるスマート追跡、痛み緩和テクニック。",
+    "keywords": "歯ぎしり, ブラキシズム, 顎関節, 顎関節症, TMD, 顎, エクササイズ, Apple Watch, iOS, 歯科健康",
+    "og_title": "BruxControl - 歯ぎしりを自然に改善",
+    "og_description": "パーソナライズされたエクササイズ、Apple Watchによる追跡、緩和テクニック。あなたの顎が喜びます。",
+    "twitter_title": "BruxControl - 歯ぎしりをコントロール",
+    "twitter_description": "パーソナライズされたエクササイズとApple Watchによるスマート追跡",
+    "title": "BruxControl - 歯ぎしりを自然に改善"
+  },
+
+  "nav": {
+    "features": "機能",
+    "how_it_works": "使い方",
+    "pricing": "料金",
+    "testimonials": "利用者の声",
+    "download_free": "無料ダウンロード",
+    "menu": "メニュー"
+  },
+
+  "hero": {
+    "badge": "App Storeで配信中",
+    "title": "顎を",
+    "title_highlight": "歯ぎしり",
+    "subtitle": "パーソナライズされたエクササイズ、Apple Watchによるスマート追跡、痛み緩和テクニック。歯ぎしりとさよならするために必要なすべてが揃っています。",
+    "cta_download": "無料ダウンロード",
+    "cta_how": "使い方を見る",
+    "trust_science": "科学的根拠に基づく",
+    "trust_no_ads": "広告なし",
+    "trust_privacy": "プライバシー保護",
+    "alt_app": "BruxControlアプリ - ダッシュボード",
+    "alt_watch": "Apple WatchのBruxControl"
+  },
+
+  "stats": {
+    "exercises": "ガイド付きエクササイズ",
+    "massage": "セルフマッサージテクニック",
+    "tips": "毎日のヒント",
+    "personalized": "パーソナライズ"
+  },
+
+  "features": {
+    "badge": "主な機能",
+    "title": "顎の健康に必要なすべて",
+    "subtitle": "歯ぎしりと顎関節症の効果的な管理のための科学的根拠に基づいたツール",
+
+    "assessment_title": "パーソナライズ診断",
+    "assessment_desc": "症状、痛みのレベル、習慣を分析し、あなただけのプランを作成するスマートな質問シート。",
+
+    "exercises_title": "ガイド付きエクササイズ",
+    "exercises_desc": "4-7-8呼吸法、ゴールドフィッシュエクササイズ、首のストレッチ、漸進的筋弛緩法を音声と振動でガイド。",
+
+    "tracking_title": "スマート追跡",
+    "tracking_desc": "進捗統計、顎の緊張グラフ、毎日のエピソード記録を備えたダッシュボード。",
+
+    "massage_title": "ガイド付きセルフマッサージ",
+    "massage_desc": "咬筋、側頭筋、首、後頭下筋のビジュアルテクニックを詳細なステップ画像付きで解説。",
+
+    "nutrition_title": "栄養ガイド",
+    "nutrition_desc": "おすすめの食品と避けるべき食品、マグネシウムなどの有用なサプリメント、激しい痛みの日のための特別プロトコル。",
+
+    "relief_title": "緩和プロトコル",
+    "relief_desc": "緊急テクニック：N安静位、温熱・冷却療法、即効性のある呼吸法。"
+  },
+
+  "screenshots": {
+    "badge": "ギャラリー",
+    "title": "あなたの健康のためにデザイン",
+    "subtitle": "回復の各ステップに寄り添う、直感的でリラックスできるインターフェース",
+    "label_dashboard": "メインダッシュボード",
+    "label_exercises": "ガイド付きエクササイズ",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "使い方",
+    "title": "3つの簡単なステップで開始",
+    "subtitle": "5分以内にリラックスした顎への道を始めましょう",
+
+    "step1_title": "診断を完了する",
+    "step1_desc": "3分間の質問シートで、症状、痛みのレベル、歯ぎしりのパターン、生活習慣を分析し、あなたの状況を把握します。",
+
+    "step2_title": "パーソナライズされたプランを受け取る",
+    "step2_desc": "アプリが最適なエクササイズを自動的に選択し、あなたの特定の症状を悪化させる可能性のあるものを避けます。",
+
+    "step3_title": "実践して改善する",
+    "step3_desc": "毎日のルーティンに従い、Apple Watchでスマートリマインダーを受け取り、ダッシュボードで進捗を追跡しましょう。"
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "手首のパートナー",
+    "subtitle": "Apple Watchが一日中、ランダムでスマートなアラートを送り、顎をリラックスさせるようリマインドします。",
+    "feature1": "顎の状態を確認するランダムアラート",
+    "feature2": "ワンタップで簡単ステータス記録",
+    "feature3": "振動付きガイド呼吸エクササイズ",
+    "feature4": "パーソナライズされたリラックス触覚フィードバック",
+    "alt_watch": "顎の状態を表示するBruxControl搭載Apple Watch"
+  },
+
+  "pricing": {
+    "badge": "料金",
+    "title": "BruxControlのすべてをアンロック",
+    "subtitle": "無料で始めて、一回のお支払いで全機能にアクセス",
+
+    "free_title": "無料",
+    "free_price": "¥0",
+    "free_subtitle": "あなたの旅を始めるために",
+    "free_feature1": "完全なパーソナライズ診断",
+    "free_feature2": "基本的な顎エクササイズ",
+    "free_feature3": "2つのセルフマッサージガイド（咬筋・側頭筋）",
+    "free_feature4": "手動ステータス記録",
+    "free_feature5": "基本統計",
+    "free_cta": "無料で始める",
+
+    "premium_badge": "50%オフ",
+    "premium_title": "プレミアム",
+    "premium_price": "¥4,500",
+    "premium_price_original": "¥9,000",
+    "premium_subtitle": "買い切り · 永久アクセス",
+    "premium_feature0": "無料版のすべて +",
+    "premium_feature1": "15以上のパーソナライズエクササイズ",
+    "premium_feature2": "5つの完全セルフマッサージガイド",
+    "premium_feature3": "Apple Watchスマートアラート",
+    "premium_feature4": "歯ぎしり対策栄養ガイド",
+    "premium_feature5": "痛み緩和プロトコル",
+    "premium_feature6": "履歴と高度な分析",
+    "premium_cta": "¥4,500でアンロック",
+
+    "footer_note": "サブスクリプションなし · 継続課金なし · 永久にあなたのもの"
+  },
+
+  "testimonials": {
+    "badge": "利用者の声",
+    "title": "ユーザーの声",
+    "subtitle": "多くの方がBruxControlで生活の質を改善しています",
+
+    "review1_text": "長年の顎の痛みに悩んでいましたが、このアプリのおかげで自分が歯を食いしばっていることに気づけるようになりました。エクササイズは簡単で本当に効果があります。",
+    "review1_name": "M.さん",
+    "review1_title": "利用3ヶ月",
+
+    "review2_text": "Watchのアラートが素晴らしいです。気づかないうちに顎を食いしばっていたことがわかりました。今では痛くなる前に止められます。",
+    "review2_name": "K.さん",
+    "review2_title": "利用2ヶ月",
+
+    "review3_text": "栄養ガイドは驚きでした。ガムが歯ぎしりに悪いとは知りませんでした。痛みの日のスムージーは本当に救いです。",
+    "review3_name": "Y.さん",
+    "review3_title": "利用1ヶ月"
+  },
+
+  "download": {
+    "title": "今日からリラックスした顎への旅を始めましょう",
+    "subtitle": "BruxControlを無料でダウンロードして、パーソナライズ診断を開始しましょう。あなたの顎が喜びます。",
+    "cta_appstore": "App Storeでダウンロード",
+    "cta_premium": "プレミアムプランを見る",
+    "note": "iOS 17以上・watchOS 10以上が必要 · 広告なし · プライバシー保護"
+  },
+
+  "footer": {
+    "tagline": "歯ぎしり対策のパートナー。顎の健康のためのテクノロジー。",
+    "product": "製品",
+    "legal": "法的情報",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "© 2025 BruxControl. All rights reserved."
+  }
+}

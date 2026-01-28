@@ -1,0 +1,172 @@
+{
+  "lang": "es",
+  "lang_name": "Español",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - Tu aliado contra el bruxismo. Ejercicios personalizados, seguimiento inteligente con Apple Watch y técnicas de alivio del dolor.",
+    "keywords": "bruxismo, ATM, TMJ, mandíbula, ejercicios, Apple Watch, iOS, salud dental",
+    "og_title": "BruxControl - Controla tu bruxismo de forma natural",
+    "og_description": "Ejercicios personalizados, seguimiento con Apple Watch y técnicas de alivio. Tu mandíbula te lo agradecerá.",
+    "twitter_title": "BruxControl - Controla tu bruxismo",
+    "twitter_description": "Ejercicios personalizados y seguimiento inteligente con Apple Watch",
+    "title": "BruxControl - Controla tu bruxismo de forma natural"
+  },
+
+  "nav": {
+    "features": "Funciones",
+    "how_it_works": "Cómo funciona",
+    "pricing": "Precios",
+    "testimonials": "Testimonios",
+    "download_free": "Descargar Gratis",
+    "menu": "Menú"
+  },
+
+  "hero": {
+    "badge": "Disponible en App Store",
+    "title": "Libera tu mandíbula del",
+    "title_highlight": "bruxismo",
+    "subtitle": "Ejercicios personalizados, seguimiento inteligente con Apple Watch y técnicas de alivio del dolor. Todo lo que necesitas para decir adiós al bruxismo.",
+    "cta_download": "Descargar Gratis",
+    "cta_how": "Ver cómo funciona",
+    "trust_science": "Basado en evidencia científica",
+    "trust_no_ads": "Sin anuncios",
+    "trust_privacy": "Privacidad garantizada",
+    "alt_app": "BruxControl App - Dashboard",
+    "alt_watch": "BruxControl en Apple Watch"
+  },
+
+  "stats": {
+    "exercises": "Ejercicios guiados",
+    "massage": "Técnicas de automasaje",
+    "tips": "Tips diarios",
+    "personalized": "Personalizado"
+  },
+
+  "features": {
+    "badge": "Funciones principales",
+    "title": "Todo para tu salud mandibular",
+    "subtitle": "Herramientas basadas en evidencia científica para el manejo efectivo del bruxismo y trastornos temporomandibulares",
+
+    "assessment_title": "Evaluación Personalizada",
+    "assessment_desc": "Cuestionario inteligente que analiza tus síntomas, nivel de dolor y hábitos para crear un plan único adaptado a ti.",
+
+    "exercises_title": "Ejercicios Guiados",
+    "exercises_desc": "Respiración 4-7-8, ejercicio del pez dorado, estiramientos de cuello y técnicas de relajación progresiva con audio y vibración.",
+
+    "tracking_title": "Seguimiento Inteligente",
+    "tracking_desc": "Dashboard con estadísticas de tu progreso, gráficos de tensión mandibular y registro diario de episodios.",
+
+    "massage_title": "Automasaje Guiado",
+    "massage_desc": "Técnicas visuales para masetero, temporal, cuello y suboccipital con imágenes detalladas paso a paso.",
+
+    "nutrition_title": "Guía de Nutrición",
+    "nutrition_desc": "Alimentos recomendados y a evitar, suplementos útiles como magnesio y protocolo especial para días de dolor intenso.",
+
+    "relief_title": "Protocolo de Alivio",
+    "relief_desc": "Técnicas de emergencia: posición N de reposo, terapia de calor/frío y respiración de alivio inmediato."
+  },
+
+  "screenshots": {
+    "badge": "Galería",
+    "title": "Diseñada para tu bienestar",
+    "subtitle": "Interfaz intuitiva y relajante que te acompaña en cada paso de tu recuperación",
+    "label_dashboard": "Dashboard Principal",
+    "label_exercises": "Ejercicios Guiados",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "Cómo funciona",
+    "title": "Empieza en 3 simples pasos",
+    "subtitle": "Comienza tu camino hacia una mandíbula relajada en menos de 5 minutos",
+
+    "step1_title": "Completa la evaluación",
+    "step1_desc": "Un cuestionario de 3 minutos analiza tus síntomas, nivel de dolor, patrones de bruxismo y estilo de vida para entender tu situación.",
+
+    "step2_title": "Recibe tu plan personalizado",
+    "step2_desc": "La app selecciona automáticamente los ejercicios más adecuados y evita los que podrían agravar tus síntomas específicos.",
+
+    "step3_title": "Practica y mejora",
+    "step3_desc": "Sigue tu rutina diaria, recibe recordatorios inteligentes en tu Apple Watch y observa tu progreso en el dashboard."
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "Tu compañero en la muñeca",
+    "subtitle": "El Apple Watch te ayuda a ser consciente de tu mandíbula durante todo el día con alertas aleatorias e inteligentes que te recuerdan relajar.",
+    "feature1": "Alertas aleatorias para revisar tu mandíbula",
+    "feature2": "Registro rápido del estado con un solo toque",
+    "feature3": "Ejercicio de respiración guiado con vibración",
+    "feature4": "Feedback háptico relajante personalizado",
+    "alt_watch": "Apple Watch con BruxControl mostrando estado de mandíbula"
+  },
+
+  "pricing": {
+    "badge": "Precios",
+    "title": "Desbloquea todo BruxControl",
+    "subtitle": "Empieza gratis y desbloquea el acceso completo con un único pago",
+
+    "free_title": "Gratis",
+    "free_price": "0€",
+    "free_subtitle": "Para empezar tu camino",
+    "free_feature1": "Evaluación personalizada completa",
+    "free_feature2": "Ejercicios básicos de mandíbula",
+    "free_feature3": "2 guías de automasaje (masetero y temporal)",
+    "free_feature4": "Registro manual de estado",
+    "free_feature5": "Estadísticas básicas",
+    "free_cta": "Empezar Gratis",
+
+    "premium_badge": "50% DESCUENTO",
+    "premium_title": "Premium",
+    "premium_price": "29€",
+    "premium_price_original": "58€",
+    "premium_subtitle": "Pago único · Acceso de por vida",
+    "premium_feature0": "Todo lo gratis +",
+    "premium_feature1": "15+ ejercicios personalizados",
+    "premium_feature2": "5 guías completas de automasaje",
+    "premium_feature3": "Alertas inteligentes en Apple Watch",
+    "premium_feature4": "Guía de nutrición anti-bruxismo",
+    "premium_feature5": "Protocolos de alivio del dolor",
+    "premium_feature6": "Historial y analíticas avanzadas",
+    "premium_cta": "Desbloquear por 29€",
+
+    "footer_note": "Sin suscripciones · Sin pagos recurrentes · Tuyo para siempre"
+  },
+
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Miles de personas ya han mejorado su calidad de vida con BruxControl",
+
+    "review1_text": "Después de años con dolor de mandíbula, esta app me ha ayudado a ser consciente de cuándo aprieto los dientes. Los ejercicios son fáciles de seguir y realmente funcionan.",
+    "review1_name": "María G.",
+    "review1_title": "Usuario desde hace 3 meses",
+
+    "review2_text": "Las alertas del Watch son geniales. Me di cuenta de que apretaba la mandíbula todo el tiempo sin saberlo. Ahora puedo pararlo antes de que empiece a doler.",
+    "review2_name": "Carlos R.",
+    "review2_title": "Usuario desde hace 2 meses",
+
+    "review3_text": "La guía de nutrición fue una sorpresa. No sabía que el chicle era tan malo para el bruxismo. Los smoothies en días de dolor son un salvavidas total.",
+    "review3_name": "Laura P.",
+    "review3_title": "Usuario desde hace 1 mes"
+  },
+
+  "download": {
+    "title": "Empieza hoy tu camino hacia una mandíbula relajada",
+    "subtitle": "Descarga BruxControl gratis y comienza con tu evaluación personalizada. Tu mandíbula te lo agradecerá.",
+    "cta_appstore": "Descargar en App Store",
+    "cta_premium": "Ver planes Premium",
+    "note": "Requiere iOS 17+ y watchOS 10+ · Sin anuncios · Privacidad garantizada"
+  },
+
+  "footer": {
+    "tagline": "Tu aliado contra el bruxismo. Tecnología al servicio de tu bienestar mandibular.",
+    "product": "Producto",
+    "legal": "Legal",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "copyright": "© 2025 BruxControl. Todos los derechos reservados."
+  }
+}

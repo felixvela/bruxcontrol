@@ -1,0 +1,172 @@
+{
+  "lang": "it",
+  "lang_name": "Italiano",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - Il tuo alleato contro il bruxismo. Esercizi personalizzati, monitoraggio intelligente con Apple Watch e tecniche per alleviare il dolore.",
+    "keywords": "bruxismo, ATM, disturbi temporo-mandibolari, mandibola, esercizi, Apple Watch, iOS, salute dentale",
+    "og_title": "BruxControl - Controlla il tuo bruxismo in modo naturale",
+    "og_description": "Esercizi personalizzati, monitoraggio con Apple Watch e tecniche di sollievo. La tua mandibola ti ringrazierà.",
+    "twitter_title": "BruxControl - Controlla il tuo bruxismo",
+    "twitter_description": "Esercizi personalizzati e monitoraggio intelligente con Apple Watch",
+    "title": "BruxControl - Controlla il tuo bruxismo in modo naturale"
+  },
+
+  "nav": {
+    "features": "Funzionalità",
+    "how_it_works": "Come funziona",
+    "pricing": "Prezzi",
+    "testimonials": "Testimonianze",
+    "download_free": "Scarica Gratis",
+    "menu": "Menu"
+  },
+
+  "hero": {
+    "badge": "Disponibile su App Store",
+    "title": "Libera la tua mandibola dal",
+    "title_highlight": "bruxismo",
+    "subtitle": "Esercizi personalizzati, monitoraggio intelligente con Apple Watch e tecniche per alleviare il dolore. Tutto ciò di cui hai bisogno per dire addio al bruxismo.",
+    "cta_download": "Scarica Gratis",
+    "cta_how": "Scopri come funziona",
+    "trust_science": "Basato su evidenze scientifiche",
+    "trust_no_ads": "Senza pubblicità",
+    "trust_privacy": "Privacy garantita",
+    "alt_app": "App BruxControl - Dashboard",
+    "alt_watch": "BruxControl su Apple Watch"
+  },
+
+  "stats": {
+    "exercises": "Esercizi guidati",
+    "massage": "Tecniche di auto-massaggio",
+    "tips": "Consigli quotidiani",
+    "personalized": "Personalizzato"
+  },
+
+  "features": {
+    "badge": "Funzionalità principali",
+    "title": "Tutto per la salute della tua mandibola",
+    "subtitle": "Strumenti basati su evidenze scientifiche per una gestione efficace del bruxismo e dei disturbi temporo-mandibolari",
+
+    "assessment_title": "Valutazione Personalizzata",
+    "assessment_desc": "Questionario intelligente che analizza i tuoi sintomi, il livello di dolore e le tue abitudini per creare un piano unico su misura per te.",
+
+    "exercises_title": "Esercizi Guidati",
+    "exercises_desc": "Respirazione 4-7-8, esercizio del pesce rosso, stretching del collo e tecniche di rilassamento progressivo con audio e vibrazione.",
+
+    "tracking_title": "Monitoraggio Intelligente",
+    "tracking_desc": "Dashboard con statistiche sui progressi, grafici della tensione mandibolare e registrazione giornaliera degli episodi.",
+
+    "massage_title": "Auto-Massaggio Guidato",
+    "massage_desc": "Tecniche visive per massetere, temporale, collo e suboccipitale con immagini dettagliate passo dopo passo.",
+
+    "nutrition_title": "Guida Nutrizionale",
+    "nutrition_desc": "Alimenti consigliati e da evitare, integratori utili come il magnesio e protocollo speciale per i giorni di dolore intenso.",
+
+    "relief_title": "Protocollo di Sollievo",
+    "relief_desc": "Tecniche di emergenza: posizione di riposo N, terapia caldo/freddo e respirazione per sollievo immediato."
+  },
+
+  "screenshots": {
+    "badge": "Galleria",
+    "title": "Progettato per il tuo benessere",
+    "subtitle": "Interfaccia intuitiva e rilassante che ti accompagna in ogni passo del tuo recupero",
+    "label_dashboard": "Dashboard Principale",
+    "label_exercises": "Esercizi Guidati",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "Come funziona",
+    "title": "Inizia in 3 semplici passaggi",
+    "subtitle": "Inizia il tuo percorso verso una mandibola rilassata in meno di 5 minuti",
+
+    "step1_title": "Completa la valutazione",
+    "step1_desc": "Un questionario di 3 minuti analizza i tuoi sintomi, il livello di dolore, i pattern del bruxismo e lo stile di vita per comprendere la tua situazione.",
+
+    "step2_title": "Ricevi il tuo piano personalizzato",
+    "step2_desc": "L'app seleziona automaticamente gli esercizi più adatti ed evita quelli che potrebbero aggravare i tuoi sintomi specifici.",
+
+    "step3_title": "Pratica e migliora",
+    "step3_desc": "Segui la tua routine quotidiana, ricevi promemoria intelligenti sul tuo Apple Watch e monitora i tuoi progressi nella dashboard."
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "Il tuo compagno al polso",
+    "subtitle": "Apple Watch ti aiuta a essere consapevole della tua mandibola durante la giornata con avvisi casuali e intelligenti che ti ricordano di rilassarti.",
+    "feature1": "Avvisi casuali per controllare la mandibola",
+    "feature2": "Registrazione rapida dello stato con un solo tocco",
+    "feature3": "Esercizio di respirazione guidato con vibrazione",
+    "feature4": "Feedback aptico rilassante personalizzato",
+    "alt_watch": "Apple Watch con BruxControl che mostra lo stato della mandibola"
+  },
+
+  "pricing": {
+    "badge": "Prezzi",
+    "title": "Sblocca tutto BruxControl",
+    "subtitle": "Inizia gratis e sblocca l'accesso completo con un unico pagamento",
+
+    "free_title": "Gratis",
+    "free_price": "0€",
+    "free_subtitle": "Per iniziare il tuo percorso",
+    "free_feature1": "Valutazione personalizzata completa",
+    "free_feature2": "Esercizi base per la mandibola",
+    "free_feature3": "2 guide di auto-massaggio (massetere e temporale)",
+    "free_feature4": "Registrazione manuale dello stato",
+    "free_feature5": "Statistiche di base",
+    "free_cta": "Inizia Gratis",
+
+    "premium_badge": "50% DI SCONTO",
+    "premium_title": "Premium",
+    "premium_price": "29€",
+    "premium_price_original": "58€",
+    "premium_subtitle": "Pagamento unico · Accesso a vita",
+    "premium_feature0": "Tutto di Gratis +",
+    "premium_feature1": "15+ esercizi personalizzati",
+    "premium_feature2": "5 guide complete di auto-massaggio",
+    "premium_feature3": "Avvisi intelligenti su Apple Watch",
+    "premium_feature4": "Guida nutrizionale anti-bruxismo",
+    "premium_feature5": "Protocolli per alleviare il dolore",
+    "premium_feature6": "Storico e analisi avanzate",
+    "premium_cta": "Sblocca a 29€",
+
+    "footer_note": "Nessun abbonamento · Nessun pagamento ricorrente · Tuo per sempre"
+  },
+
+  "testimonials": {
+    "badge": "Testimonianze",
+    "title": "Cosa dicono i nostri utenti",
+    "subtitle": "Migliaia di persone hanno già migliorato la loro qualità di vita con BruxControl",
+
+    "review1_text": "Dopo anni di dolore alla mandibola, questa app mi ha aiutato a prendere coscienza di quando serro i denti. Gli esercizi sono facili da seguire e funzionano davvero.",
+    "review1_name": "Maria G.",
+    "review1_title": "Utente da 3 mesi",
+
+    "review2_text": "Gli avvisi del Watch sono fantastici. Mi sono reso conto che serravo la mandibola continuamente senza saperlo. Ora posso fermarmi prima che inizi a far male.",
+    "review2_name": "Carlo R.",
+    "review2_title": "Utente da 2 mesi",
+
+    "review3_text": "La guida nutrizionale è stata una sorpresa. Non sapevo che le gomme da masticare fossero così dannose per il bruxismo. I frullati nei giorni di dolore sono una salvezza.",
+    "review3_name": "Laura P.",
+    "review3_title": "Utente da 1 mese"
+  },
+
+  "download": {
+    "title": "Inizia oggi il tuo percorso verso una mandibola rilassata",
+    "subtitle": "Scarica BruxControl gratis e inizia la tua valutazione personalizzata. La tua mandibola ti ringrazierà.",
+    "cta_appstore": "Scarica su App Store",
+    "cta_premium": "Visualizza i piani Premium",
+    "note": "Richiede iOS 17+ e watchOS 10+ · Senza pubblicità · Privacy garantita"
+  },
+
+  "footer": {
+    "tagline": "Il tuo alleato contro il bruxismo. Tecnologia al servizio del benessere della tua mandibola.",
+    "product": "Prodotto",
+    "legal": "Legale",
+    "contact": "Contatti",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Utilizzo",
+    "copyright": "© 2025 BruxControl. Tutti i diritti riservati."
+  }
+}

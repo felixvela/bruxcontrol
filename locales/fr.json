@@ -1,0 +1,172 @@
+{
+  "lang": "fr",
+  "lang_name": "Français",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - Votre allié contre le bruxisme. Exercices personnalisés, suivi intelligent sur Apple Watch et techniques de soulagement de la douleur.",
+    "keywords": "bruxisme, ATM, troubles temporo-mandibulaires, mâchoire, exercices, Apple Watch, iOS, santé dentaire",
+    "og_title": "BruxControl - Contrôlez votre bruxisme naturellement",
+    "og_description": "Exercices personnalisés, suivi sur Apple Watch et techniques de soulagement. Votre mâchoire vous remerciera.",
+    "twitter_title": "BruxControl - Contrôlez votre bruxisme",
+    "twitter_description": "Exercices personnalisés et suivi intelligent sur Apple Watch",
+    "title": "BruxControl - Contrôlez votre bruxisme naturellement"
+  },
+
+  "nav": {
+    "features": "Fonctionnalités",
+    "how_it_works": "Comment ça marche",
+    "pricing": "Tarifs",
+    "testimonials": "Témoignages",
+    "download_free": "Télécharger gratuitement",
+    "menu": "Menu"
+  },
+
+  "hero": {
+    "badge": "Disponible sur l'App Store",
+    "title": "Libérez votre mâchoire du",
+    "title_highlight": "bruxisme",
+    "subtitle": "Exercices personnalisés, suivi intelligent sur Apple Watch et techniques de soulagement de la douleur. Tout ce dont vous avez besoin pour dire adieu au bruxisme.",
+    "cta_download": "Télécharger gratuitement",
+    "cta_how": "Voir comment ça marche",
+    "trust_science": "Basé sur des preuves scientifiques",
+    "trust_no_ads": "Sans publicité",
+    "trust_privacy": "Confidentialité garantie",
+    "alt_app": "Application BruxControl - Tableau de bord",
+    "alt_watch": "BruxControl sur Apple Watch"
+  },
+
+  "stats": {
+    "exercises": "Exercices guidés",
+    "massage": "Techniques d'auto-massage",
+    "tips": "Conseils quotidiens",
+    "personalized": "Personnalisé"
+  },
+
+  "features": {
+    "badge": "Fonctionnalités clés",
+    "title": "Tout pour la santé de votre mâchoire",
+    "subtitle": "Des outils basés sur des preuves pour une gestion efficace du bruxisme et des troubles de l'articulation temporo-mandibulaire",
+
+    "assessment_title": "Évaluation personnalisée",
+    "assessment_desc": "Questionnaire intelligent qui analyse vos symptômes, votre niveau de douleur et vos habitudes pour créer un plan unique adapté à vous.",
+
+    "exercises_title": "Exercices guidés",
+    "exercises_desc": "Respiration 4-7-8, exercice du poisson rouge, étirements du cou et techniques de relaxation progressive avec audio et vibration.",
+
+    "tracking_title": "Suivi intelligent",
+    "tracking_desc": "Tableau de bord avec statistiques de progression, graphiques de tension de la mâchoire et journal des épisodes quotidiens.",
+
+    "massage_title": "Auto-massage guidé",
+    "massage_desc": "Techniques visuelles pour le masséter, le temporal, le cou et les sous-occipitaux avec images détaillées étape par étape.",
+
+    "nutrition_title": "Guide nutritionnel",
+    "nutrition_desc": "Aliments recommandés et à éviter, compléments utiles comme le magnésium, et protocole spécial pour les jours de douleur intense.",
+
+    "relief_title": "Protocole de soulagement",
+    "relief_desc": "Techniques d'urgence : position de repos en N, thérapie chaud/froid et respiration de soulagement immédiat."
+  },
+
+  "screenshots": {
+    "badge": "Galerie",
+    "title": "Conçu pour votre bien-être",
+    "subtitle": "Interface intuitive et relaxante qui vous accompagne à chaque étape de votre récupération",
+    "label_dashboard": "Tableau de bord principal",
+    "label_exercises": "Exercices guidés",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "Comment ça marche",
+    "title": "Commencez en 3 étapes simples",
+    "subtitle": "Débutez votre chemin vers une mâchoire détendue en moins de 5 minutes",
+
+    "step1_title": "Complétez l'évaluation",
+    "step1_desc": "Un questionnaire de 3 minutes analyse vos symptômes, votre niveau de douleur, vos schémas de bruxisme et votre mode de vie pour comprendre votre situation.",
+
+    "step2_title": "Recevez votre plan personnalisé",
+    "step2_desc": "L'application sélectionne automatiquement les exercices les plus adaptés et évite ceux qui pourraient aggraver vos symptômes spécifiques.",
+
+    "step3_title": "Pratiquez et améliorez-vous",
+    "step3_desc": "Suivez votre routine quotidienne, recevez des rappels intelligents sur votre Apple Watch et suivez vos progrès sur le tableau de bord."
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "Votre compagnon au poignet",
+    "subtitle": "Apple Watch vous aide à être conscient de votre mâchoire tout au long de la journée avec des alertes aléatoires et intelligentes vous rappelant de vous détendre.",
+    "feature1": "Alertes aléatoires pour vérifier votre mâchoire",
+    "feature2": "Enregistrement rapide de l'état en un seul toucher",
+    "feature3": "Exercice de respiration guidée avec vibration",
+    "feature4": "Retour haptique relaxant personnalisé",
+    "alt_watch": "Apple Watch avec BruxControl affichant l'état de la mâchoire"
+  },
+
+  "pricing": {
+    "badge": "Tarifs",
+    "title": "Débloquez tout BruxControl",
+    "subtitle": "Commencez gratuitement et débloquez l'accès complet avec un paiement unique",
+
+    "free_title": "Gratuit",
+    "free_price": "0€",
+    "free_subtitle": "Pour commencer votre parcours",
+    "free_feature1": "Évaluation personnalisée complète",
+    "free_feature2": "Exercices de base pour la mâchoire",
+    "free_feature3": "2 guides d'auto-massage (masséter et temporal)",
+    "free_feature4": "Enregistrement manuel de l'état",
+    "free_feature5": "Statistiques de base",
+    "free_cta": "Commencer gratuitement",
+
+    "premium_badge": "-50%",
+    "premium_title": "Premium",
+    "premium_price": "29€",
+    "premium_price_original": "58€",
+    "premium_subtitle": "Paiement unique · Accès à vie",
+    "premium_feature0": "Tout le contenu Gratuit +",
+    "premium_feature1": "15+ exercices personnalisés",
+    "premium_feature2": "5 guides complets d'auto-massage",
+    "premium_feature3": "Alertes intelligentes sur Apple Watch",
+    "premium_feature4": "Guide nutritionnel anti-bruxisme",
+    "premium_feature5": "Protocoles de soulagement de la douleur",
+    "premium_feature6": "Historique et analyses avancées",
+    "premium_cta": "Débloquer pour 29€",
+
+    "footer_note": "Sans abonnement · Sans paiements récurrents · À vous pour toujours"
+  },
+
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que disent nos utilisateurs",
+    "subtitle": "Des milliers de personnes ont déjà amélioré leur qualité de vie avec BruxControl",
+
+    "review1_text": "Après des années de douleurs à la mâchoire, cette application m'a aidé à prendre conscience de quand je serre les dents. Les exercices sont faciles à suivre et fonctionnent vraiment.",
+    "review1_name": "Marie G.",
+    "review1_title": "Utilisatrice depuis 3 mois",
+
+    "review2_text": "Les alertes sur la Watch sont incroyables. J'ai réalisé que je serrais ma mâchoire tout le temps sans le savoir. Maintenant, je peux l'arrêter avant que ça commence à faire mal.",
+    "review2_name": "Charles R.",
+    "review2_title": "Utilisateur depuis 2 mois",
+
+    "review3_text": "Le guide nutritionnel était une surprise. Je ne savais pas que le chewing-gum était si mauvais pour le bruxisme. Les smoothies les jours de douleur sont une vraie bouée de sauvetage.",
+    "review3_name": "Laure P.",
+    "review3_title": "Utilisatrice depuis 1 mois"
+  },
+
+  "download": {
+    "title": "Commencez votre chemin vers une mâchoire détendue dès aujourd'hui",
+    "subtitle": "Téléchargez BruxControl gratuitement et commencez votre évaluation personnalisée. Votre mâchoire vous remerciera.",
+    "cta_appstore": "Télécharger sur l'App Store",
+    "cta_premium": "Voir les offres Premium",
+    "note": "Nécessite iOS 17+ et watchOS 10+ · Sans publicité · Confidentialité garantie"
+  },
+
+  "footer": {
+    "tagline": "Votre allié contre le bruxisme. La technologie au service du bien-être de votre mâchoire.",
+    "product": "Produit",
+    "legal": "Mentions légales",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyright": "© 2025 BruxControl. Tous droits réservés."
+  }
+}

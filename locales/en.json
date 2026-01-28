@@ -1,0 +1,172 @@
+{
+  "lang": "en",
+  "lang_name": "English",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - Your ally against bruxism. Personalized exercises, smart Apple Watch tracking, and pain relief techniques.",
+    "keywords": "bruxism, TMJ, TMD, jaw, exercises, Apple Watch, iOS, dental health",
+    "og_title": "BruxControl - Control your bruxism naturally",
+    "og_description": "Personalized exercises, Apple Watch tracking, and relief techniques. Your jaw will thank you.",
+    "twitter_title": "BruxControl - Control your bruxism",
+    "twitter_description": "Personalized exercises and smart Apple Watch tracking",
+    "title": "BruxControl - Control your bruxism naturally"
+  },
+
+  "nav": {
+    "features": "Features",
+    "how_it_works": "How it works",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "download_free": "Download Free",
+    "menu": "Menu"
+  },
+
+  "hero": {
+    "badge": "Available on App Store",
+    "title": "Free your jaw from",
+    "title_highlight": "bruxism",
+    "subtitle": "Personalized exercises, smart Apple Watch tracking, and pain relief techniques. Everything you need to say goodbye to bruxism.",
+    "cta_download": "Download Free",
+    "cta_how": "See how it works",
+    "trust_science": "Science-based evidence",
+    "trust_no_ads": "No ads",
+    "trust_privacy": "Privacy guaranteed",
+    "alt_app": "BruxControl App - Dashboard",
+    "alt_watch": "BruxControl on Apple Watch"
+  },
+
+  "stats": {
+    "exercises": "Guided exercises",
+    "massage": "Self-massage techniques",
+    "tips": "Daily tips",
+    "personalized": "Personalized"
+  },
+
+  "features": {
+    "badge": "Key features",
+    "title": "Everything for your jaw health",
+    "subtitle": "Evidence-based tools for effective management of bruxism and temporomandibular disorders",
+
+    "assessment_title": "Personalized Assessment",
+    "assessment_desc": "Smart questionnaire that analyzes your symptoms, pain level, and habits to create a unique plan tailored to you.",
+
+    "exercises_title": "Guided Exercises",
+    "exercises_desc": "4-7-8 breathing, goldfish exercise, neck stretches, and progressive relaxation techniques with audio and vibration.",
+
+    "tracking_title": "Smart Tracking",
+    "tracking_desc": "Dashboard with progress statistics, jaw tension graphs, and daily episode logging.",
+
+    "massage_title": "Guided Self-Massage",
+    "massage_desc": "Visual techniques for masseter, temporal, neck, and suboccipital with detailed step-by-step images.",
+
+    "nutrition_title": "Nutrition Guide",
+    "nutrition_desc": "Recommended and foods to avoid, useful supplements like magnesium, and special protocol for intense pain days.",
+
+    "relief_title": "Relief Protocol",
+    "relief_desc": "Emergency techniques: N rest position, heat/cold therapy, and immediate relief breathing."
+  },
+
+  "screenshots": {
+    "badge": "Gallery",
+    "title": "Designed for your wellbeing",
+    "subtitle": "Intuitive and relaxing interface that accompanies you in every step of your recovery",
+    "label_dashboard": "Main Dashboard",
+    "label_exercises": "Guided Exercises",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "How it works",
+    "title": "Start in 3 simple steps",
+    "subtitle": "Begin your path to a relaxed jaw in less than 5 minutes",
+
+    "step1_title": "Complete the assessment",
+    "step1_desc": "A 3-minute questionnaire analyzes your symptoms, pain level, bruxism patterns, and lifestyle to understand your situation.",
+
+    "step2_title": "Receive your personalized plan",
+    "step2_desc": "The app automatically selects the most suitable exercises and avoids those that could aggravate your specific symptoms.",
+
+    "step3_title": "Practice and improve",
+    "step3_desc": "Follow your daily routine, receive smart reminders on your Apple Watch, and track your progress on the dashboard."
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "Your companion on your wrist",
+    "subtitle": "Apple Watch helps you be aware of your jaw throughout the day with random, smart alerts reminding you to relax.",
+    "feature1": "Random alerts to check your jaw",
+    "feature2": "Quick status logging with a single tap",
+    "feature3": "Guided breathing exercise with vibration",
+    "feature4": "Personalized relaxing haptic feedback",
+    "alt_watch": "Apple Watch with BruxControl showing jaw status"
+  },
+
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Unlock all of BruxControl",
+    "subtitle": "Start free and unlock full access with a single payment",
+
+    "free_title": "Free",
+    "free_price": "$0",
+    "free_subtitle": "To start your journey",
+    "free_feature1": "Complete personalized assessment",
+    "free_feature2": "Basic jaw exercises",
+    "free_feature3": "2 self-massage guides (masseter and temporal)",
+    "free_feature4": "Manual status logging",
+    "free_feature5": "Basic statistics",
+    "free_cta": "Start Free",
+
+    "premium_badge": "50% OFF",
+    "premium_title": "Premium",
+    "premium_price": "$29",
+    "premium_price_original": "$58",
+    "premium_subtitle": "One-time payment · Lifetime access",
+    "premium_feature0": "Everything in Free +",
+    "premium_feature1": "15+ personalized exercises",
+    "premium_feature2": "5 complete self-massage guides",
+    "premium_feature3": "Smart Apple Watch alerts",
+    "premium_feature4": "Anti-bruxism nutrition guide",
+    "premium_feature5": "Pain relief protocols",
+    "premium_feature6": "History and advanced analytics",
+    "premium_cta": "Unlock for $29",
+
+    "footer_note": "No subscriptions · No recurring payments · Yours forever"
+  },
+
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What our users say",
+    "subtitle": "Thousands of people have already improved their quality of life with BruxControl",
+
+    "review1_text": "After years of jaw pain, this app has helped me become aware of when I clench my teeth. The exercises are easy to follow and really work.",
+    "review1_name": "Maria G.",
+    "review1_title": "User for 3 months",
+
+    "review2_text": "The Watch alerts are amazing. I realized I was clenching my jaw all the time without knowing it. Now I can stop it before it starts hurting.",
+    "review2_name": "Carlos R.",
+    "review2_title": "User for 2 months",
+
+    "review3_text": "The nutrition guide was a surprise. I didn't know gum was so bad for bruxism. Smoothies on pain days are a total lifesaver.",
+    "review3_name": "Laura P.",
+    "review3_title": "User for 1 month"
+  },
+
+  "download": {
+    "title": "Start your journey to a relaxed jaw today",
+    "subtitle": "Download BruxControl free and begin your personalized assessment. Your jaw will thank you.",
+    "cta_appstore": "Download on App Store",
+    "cta_premium": "View Premium plans",
+    "note": "Requires iOS 17+ and watchOS 10+ · No ads · Privacy guaranteed"
+  },
+
+  "footer": {
+    "tagline": "Your ally against bruxism. Technology at the service of your jaw wellness.",
+    "product": "Product",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "copyright": "© 2025 BruxControl. All rights reserved."
+  }
+}

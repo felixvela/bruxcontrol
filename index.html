@@ -21,7 +21,7 @@
 
     <title>BruxControl - Controla tu bruxismo de forma natural</title>
 
-    <link rel="stylesheet" href="css/styles.css?v=20260128b">
+    <link rel="stylesheet" href="css/styles.css?v=20260128c">
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- Google Fonts -->
@@ -38,13 +38,26 @@
                 <span>BruxControl</span>
             </a>
             <ul class="nav-links">
-                <li><a href="#features">Funciones</a></li>
-                <li><a href="#how-it-works">Cómo funciona</a></li>
-                <li><a href="#pricing">Precios</a></li>
-                <li><a href="#testimonials">Testimonios</a></li>
-                <li><a href="#download" class="btn btn-primary btn-sm">Descargar Gratis</a></li>
+                <li><a href="#features" data-i18n="nav.features">Funciones</a></li>
+                <li><a href="#how-it-works" data-i18n="nav.how_it_works">Cómo funciona</a></li>
+                <li><a href="#pricing" data-i18n="nav.pricing">Precios</a></li>
+                <li><a href="#testimonials" data-i18n="nav.testimonials">Testimonios</a></li>
+                <li>
+                    <div class="lang-switcher-wrapper">
+                        <select id="lang-switcher" class="lang-switcher" aria-label="Select language">
+                            <option value="es">🇪🇸 ES</option>
+                            <option value="en">🇬🇧 EN</option>
+                            <option value="fr">🇫🇷 FR</option>
+                            <option value="de">🇩🇪 DE</option>
+                            <option value="it">🇮🇹 IT</option>
+                            <option value="pt">🇧🇷 PT</option>
+                            <option value="ja">🇯🇵 JA</option>
+                        </select>
+                    </div>
+                </li>
+                <li><a href="#download" class="btn btn-primary btn-sm" data-i18n="nav.download_free">Descargar Gratis</a></li>
             </ul>
-            <button class="mobile-menu-btn" aria-label="Menú">
+            <button class="mobile-menu-btn" aria-label="Menú" data-i18n-aria="nav.menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -60,40 +73,40 @@
             <div class="hero-content">
                 <div class="hero-badge">
                     <span class="badge-dot"></span>
-                    Disponible en App Store
+                    <span data-i18n="hero.badge">Disponible en App Store</span>
                 </div>
-                <h1>Libera tu mandíbula del <span class="highlight">bruxismo</span></h1>
-                <p class="hero-subtitle">Ejercicios personalizados, seguimiento inteligente con Apple Watch y técnicas de alivio del dolor. Todo lo que necesitas para decir adiós al bruxismo.</p>
+                <h1><span data-i18n="hero.title">Libera tu mandíbula del</span> <span class="highlight" data-i18n="hero.title_highlight">bruxismo</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Ejercicios personalizados, seguimiento inteligente con Apple Watch y técnicas de alivio del dolor. Todo lo que necesitas para decir adiós al bruxismo.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg">
                         <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                         </svg>
-                        Descargar Gratis
+                        <span data-i18n="hero.cta_download">Descargar Gratis</span>
                     </a>
-                    <a href="#how-it-works" class="btn btn-secondary btn-lg">Ver cómo funciona</a>
+                    <a href="#how-it-works" class="btn btn-secondary btn-lg" data-i18n="hero.cta_how">Ver cómo funciona</a>
                 </div>
                 <div class="hero-trust">
                     <div class="trust-item">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        <span>Basado en evidencia científica</span>
+                        <span data-i18n="hero.trust_science">Basado en evidencia científica</span>
                     </div>
                     <div class="trust-item">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        <span>Sin anuncios</span>
+                        <span data-i18n="hero.trust_no_ads">Sin anuncios</span>
                     </div>
                     <div class="trust-item">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        <span>Privacidad garantizada</span>
+                        <span data-i18n="hero.trust_privacy">Privacidad garantizada</span>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="phone-mockup">
-                    <img src="images/app-screenshot.png" alt="BruxControl App - Dashboard">
+                    <img src="images/app-screenshot.png" alt="BruxControl App - Dashboard" data-i18n-alt="hero.alt_app">
                 </div>
                 <div class="watch-mockup">
-                    <img src="images/watch-screenshot.png" alt="BruxControl en Apple Watch">
+                    <img src="images/watch-screenshot.png" alt="BruxControl en Apple Watch" data-i18n-alt="hero.alt_watch">
                 </div>
             </div>
         </div>
@@ -110,19 +123,19 @@
             <div class="stats-container">
                 <div class="stat-item">
                     <span class="stat-number" data-target="15">15+</span>
-                    <span class="stat-label">Ejercicios guiados</span>
+                    <span class="stat-label" data-i18n="stats.exercises">Ejercicios guiados</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" data-target="5">5</span>
-                    <span class="stat-label">Técnicas de automasaje</span>
+                    <span class="stat-label" data-i18n="stats.massage">Técnicas de automasaje</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" data-target="24">24</span>
-                    <span class="stat-label">Tips diarios</span>
+                    <span class="stat-label" data-i18n="stats.tips">Tips diarios</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" data-target="100">100%</span>
-                    <span class="stat-label">Personalizado</span>
+                    <span class="stat-label" data-i18n="stats.personalized">Personalizado</span>
                 </div>
             </div>
         </div>
@@ -134,10 +147,10 @@
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    Funciones principales
+                    <span data-i18n="features.badge">Funciones principales</span>
                 </span>
-                <h2>Todo para tu salud mandibular</h2>
-                <p>Herramientas basadas en evidencia científica para el manejo efectivo del bruxismo y trastornos temporomandibulares</p>
+                <h2 data-i18n="features.title">Todo para tu salud mandibular</h2>
+                <p data-i18n="features.subtitle">Herramientas basadas en evidencia científica para el manejo efectivo del bruxismo y trastornos temporomandibulares</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
@@ -146,8 +159,8 @@
                             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3>Evaluación Personalizada</h3>
-                    <p>Cuestionario inteligente que analiza tus síntomas, nivel de dolor y hábitos para crear un plan único adaptado a ti.</p>
+                    <h3 data-i18n="features.assessment_title">Evaluación Personalizada</h3>
+                    <p data-i18n="features.assessment_desc">Cuestionario inteligente que analiza tus síntomas, nivel de dolor y hábitos para crear un plan único adaptado a ti.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -155,8 +168,8 @@
                             <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
                         </svg>
                     </div>
-                    <h3>Ejercicios Guiados</h3>
-                    <p>Respiración 4-7-8, ejercicio del pez dorado, estiramientos de cuello y técnicas de relajación progresiva con audio y vibración.</p>
+                    <h3 data-i18n="features.exercises_title">Ejercicios Guiados</h3>
+                    <p data-i18n="features.exercises_desc">Respiración 4-7-8, ejercicio del pez dorado, estiramientos de cuello y técnicas de relajación progresiva con audio y vibración.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -167,8 +180,8 @@
                             <line x1="3" y1="10" x2="21" y2="10"/>
                         </svg>
                     </div>
-                    <h3>Seguimiento Inteligente</h3>
-                    <p>Dashboard con estadísticas de tu progreso, gráficos de tensión mandibular y registro diario de episodios.</p>
+                    <h3 data-i18n="features.tracking_title">Seguimiento Inteligente</h3>
+                    <p data-i18n="features.tracking_desc">Dashboard con estadísticas de tu progreso, gráficos de tensión mandibular y registro diario de episodios.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -176,8 +189,8 @@
                             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                         </svg>
                     </div>
-                    <h3>Automasaje Guiado</h3>
-                    <p>Técnicas visuales para masetero, temporal, cuello y suboccipital con imágenes detalladas paso a paso.</p>
+                    <h3 data-i18n="features.massage_title">Automasaje Guiado</h3>
+                    <p data-i18n="features.massage_desc">Técnicas visuales para masetero, temporal, cuello y suboccipital con imágenes detalladas paso a paso.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -189,8 +202,8 @@
                             <line x1="14" y1="1" x2="14" y2="4"/>
                         </svg>
                     </div>
-                    <h3>Guía de Nutrición</h3>
-                    <p>Alimentos recomendados y a evitar, suplementos útiles como magnesio y protocolo especial para días de dolor intenso.</p>
+                    <h3 data-i18n="features.nutrition_title">Guía de Nutrición</h3>
+                    <p data-i18n="features.nutrition_desc">Alimentos recomendados y a evitar, suplementos útiles como magnesio y protocolo especial para días de dolor intenso.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -198,8 +211,8 @@
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                         </svg>
                     </div>
-                    <h3>Protocolo de Alivio</h3>
-                    <p>Técnicas de emergencia: posición N de reposo, terapia de calor/frío y respiración de alivio inmediato.</p>
+                    <h3 data-i18n="features.relief_title">Protocolo de Alivio</h3>
+                    <p data-i18n="features.relief_desc">Técnicas de emergencia: posición N de reposo, terapia de calor/frío y respiración de alivio inmediato.</p>
                 </div>
             </div>
         </div>
@@ -211,23 +224,23 @@
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-                    Galería
+                    <span data-i18n="screenshots.badge">Galería</span>
                 </span>
-                <h2>Diseñada para tu bienestar</h2>
-                <p>Interfaz intuitiva y relajante que te acompaña en cada paso de tu recuperación</p>
+                <h2 data-i18n="screenshots.title">Diseñada para tu bienestar</h2>
+                <p data-i18n="screenshots.subtitle">Interfaz intuitiva y relajante que te acompaña en cada paso de tu recuperación</p>
             </div>
             <div class="screenshots-showcase">
                 <div class="screenshot-item">
                     <img src="images/app-screenshot.png" alt="Dashboard de BruxControl">
-                    <div class="screenshot-label">Dashboard Principal</div>
+                    <div class="screenshot-label" data-i18n="screenshots.label_dashboard">Dashboard Principal</div>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/dashboard.png" alt="Ejercicios personalizados">
-                    <div class="screenshot-label">Ejercicios Guiados</div>
+                    <div class="screenshot-label" data-i18n="screenshots.label_exercises">Ejercicios Guiados</div>
                 </div>
                 <div class="screenshot-item">
                     <img src="images/watch-main.png" alt="Apple Watch App">
-                    <div class="screenshot-label">Apple Watch</div>
+                    <div class="screenshot-label" data-i18n="screenshots.label_watch">Apple Watch</div>
                 </div>
             </div>
         </div>
@@ -239,28 +252,28 @@
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-                    Cómo funciona
+                    <span data-i18n="how_it_works.badge">Cómo funciona</span>
                 </span>
-                <h2>Empieza en 3 simples pasos</h2>
-                <p>Comienza tu camino hacia una mandíbula relajada en menos de 5 minutos</p>
+                <h2 data-i18n="how_it_works.title">Empieza en 3 simples pasos</h2>
+                <p data-i18n="how_it_works.subtitle">Comienza tu camino hacia una mandíbula relajada en menos de 5 minutos</p>
             </div>
             <div class="steps-container">
                 <div class="step-card">
                     <div class="step-number">1</div>
-                    <h3>Completa la evaluación</h3>
-                    <p>Un cuestionario de 3 minutos analiza tus síntomas, nivel de dolor, patrones de bruxismo y estilo de vida para entender tu situación.</p>
+                    <h3 data-i18n="how_it_works.step1_title">Completa la evaluación</h3>
+                    <p data-i18n="how_it_works.step1_desc">Un cuestionario de 3 minutos analiza tus síntomas, nivel de dolor, patrones de bruxismo y estilo de vida para entender tu situación.</p>
                     <span class="step-arrow">→</span>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
-                    <h3>Recibe tu plan personalizado</h3>
-                    <p>La app selecciona automáticamente los ejercicios más adecuados y evita los que podrían agravar tus síntomas específicos.</p>
+                    <h3 data-i18n="how_it_works.step2_title">Recibe tu plan personalizado</h3>
+                    <p data-i18n="how_it_works.step2_desc">La app selecciona automáticamente los ejercicios más adecuados y evita los que podrían agravar tus síntomas específicos.</p>
                     <span class="step-arrow">→</span>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
-                    <h3>Practica y mejora</h3>
-                    <p>Sigue tu rutina diaria, recibe recordatorios inteligentes en tu Apple Watch y observa tu progreso en el dashboard.</p>
+                    <h3 data-i18n="how_it_works.step3_title">Practica y mejora</h3>
+                    <p data-i18n="how_it_works.step3_desc">Sigue tu rutina diaria, recibe recordatorios inteligentes en tu Apple Watch y observa tu progreso en el dashboard.</p>
                 </div>
             </div>
         </div>
@@ -272,31 +285,31 @@
             <div class="watch-content">
                 <span class="section-badge" style="background: rgba(255,255,255,0.2); color: white;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                    Apple Watch
+                    <span data-i18n="watch.badge">Apple Watch</span>
                 </span>
-                <h2>Tu compañero en la muñeca</h2>
-                <p>El Apple Watch te ayuda a ser consciente de tu mandíbula durante todo el día con alertas aleatorias e inteligentes que te recuerdan relajar.</p>
+                <h2 data-i18n="watch.title">Tu compañero en la muñeca</h2>
+                <p data-i18n="watch.subtitle">El Apple Watch te ayuda a ser consciente de tu mandíbula durante todo el día con alertas aleatorias e inteligentes que te recuerdan relajar.</p>
                 <ul class="watch-features-list">
                     <li>
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        Alertas aleatorias para revisar tu mandíbula
+                        <span data-i18n="watch.feature1">Alertas aleatorias para revisar tu mandíbula</span>
                     </li>
                     <li>
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        Registro rápido del estado con un solo toque
+                        <span data-i18n="watch.feature2">Registro rápido del estado con un solo toque</span>
                     </li>
                     <li>
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        Ejercicio de respiración guiado con vibración
+                        <span data-i18n="watch.feature3">Ejercicio de respiración guiado con vibración</span>
                     </li>
                     <li>
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        Feedback háptico relajante personalizado
+                        <span data-i18n="watch.feature4">Feedback háptico relajante personalizado</span>
                     </li>
                 </ul>
             </div>
             <div class="watch-image">
-                <img src="images/watch-hero.png" alt="Apple Watch con BruxControl mostrando estado de mandíbula">
+                <img src="images/watch-hero.png" alt="Apple Watch con BruxControl mostrando estado de mandíbula" data-i18n-alt="watch.alt_watch">
             </div>
         </div>
     </section>
@@ -307,79 +320,79 @@
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
-                    Precios
+                    <span data-i18n="pricing.badge">Precios</span>
                 </span>
-                <h2>Desbloquea todo BruxControl</h2>
-                <p>Empieza gratis y desbloquea el acceso completo con un único pago</p>
+                <h2 data-i18n="pricing.title">Desbloquea todo BruxControl</h2>
+                <p data-i18n="pricing.subtitle">Empieza gratis y desbloquea el acceso completo con un único pago</p>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card free">
-                    <h3>Gratis</h3>
-                    <div class="price">0€</div>
-                    <p>Para empezar tu camino</p>
+                    <h3 data-i18n="pricing.free_title">Gratis</h3>
+                    <div class="price" data-i18n="pricing.free_price">0€</div>
+                    <p data-i18n="pricing.free_subtitle">Para empezar tu camino</p>
                     <ul class="pricing-features">
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Evaluación personalizada completa
+                            <span data-i18n="pricing.free_feature1">Evaluación personalizada completa</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Ejercicios básicos de mandíbula
+                            <span data-i18n="pricing.free_feature2">Ejercicios básicos de mandíbula</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            2 guías de automasaje (masetero y temporal)
+                            <span data-i18n="pricing.free_feature3">2 guías de automasaje (masetero y temporal)</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Registro manual de estado
+                            <span data-i18n="pricing.free_feature4">Registro manual de estado</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Estadísticas básicas
+                            <span data-i18n="pricing.free_feature5">Estadísticas básicas</span>
                         </li>
                     </ul>
-                    <a href="#download" class="btn btn-secondary btn-lg">Empezar Gratis</a>
+                    <a href="#download" class="btn btn-secondary btn-lg" data-i18n="pricing.free_cta">Empezar Gratis</a>
                 </div>
                 <div class="pricing-card premium">
-                    <span class="pricing-badge">50% DESCUENTO</span>
-                    <h3>Premium</h3>
-                    <div class="price">29€ <span class="price-original">58€</span></div>
-                    <p>Pago único · Acceso de por vida</p>
+                    <span class="pricing-badge" data-i18n="pricing.premium_badge">50% DESCUENTO</span>
+                    <h3 data-i18n="pricing.premium_title">Premium</h3>
+                    <div class="price"><span data-i18n="pricing.premium_price">29€</span> <span class="price-original" data-i18n="pricing.premium_price_original">58€</span></div>
+                    <p data-i18n="pricing.premium_subtitle">Pago único · Acceso de por vida</p>
                     <ul class="pricing-features">
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            <strong>Todo lo gratis +</strong>
+                            <strong data-i18n="pricing.premium_feature0">Todo lo gratis +</strong>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            15+ ejercicios personalizados
+                            <span data-i18n="pricing.premium_feature1">15+ ejercicios personalizados</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            5 guías completas de automasaje
+                            <span data-i18n="pricing.premium_feature2">5 guías completas de automasaje</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Alertas inteligentes en Apple Watch
+                            <span data-i18n="pricing.premium_feature3">Alertas inteligentes en Apple Watch</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Guía de nutrición anti-bruxismo
+                            <span data-i18n="pricing.premium_feature4">Guía de nutrición anti-bruxismo</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Protocolos de alivio del dolor
+                            <span data-i18n="pricing.premium_feature5">Protocolos de alivio del dolor</span>
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                            Historial y analíticas avanzadas
+                            <span data-i18n="pricing.premium_feature6">Historial y analíticas avanzadas</span>
                         </li>
                     </ul>
-                    <a href="#download" class="btn btn-white btn-lg">Desbloquear por 29€</a>
+                    <a href="#download" class="btn btn-white btn-lg" data-i18n="pricing.premium_cta">Desbloquear por 29€</a>
                 </div>
             </div>
-            <p style="text-align: center; margin-top: 2rem; color: var(--text-secondary);">
+            <p style="text-align: center; margin-top: 2rem; color: var(--text-secondary);" data-i18n="pricing.footer_note">
                 Sin suscripciones · Sin pagos recurrentes · Tuyo para siempre
             </p>
         </div>
@@ -391,10 +404,10 @@
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                    Testimonios
+                    <span data-i18n="testimonials.badge">Testimonios</span>
                 </span>
-                <h2>Lo que dicen nuestros usuarios</h2>
-                <p>Miles de personas ya han mejorado su calidad de vida con BruxControl</p>
+                <h2 data-i18n="testimonials.title">Lo que dicen nuestros usuarios</h2>
+                <p data-i18n="testimonials.subtitle">Miles de personas ya han mejorado su calidad de vida con BruxControl</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
@@ -405,12 +418,12 @@
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     </div>
-                    <p>"Después de años con dolor de mandíbula, esta app me ha ayudado a ser consciente de cuándo aprieto los dientes. Los ejercicios son fáciles de seguir y realmente funcionan."</p>
+                    <p data-i18n="testimonials.review1_text">"Después de años con dolor de mandíbula, esta app me ha ayudado a ser consciente de cuándo aprieto los dientes. Los ejercicios son fáciles de seguir y realmente funcionan."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">M</div>
                         <div class="author-info">
-                            <span class="author-name">María G.</span>
-                            <span class="author-title">Usuario desde hace 3 meses</span>
+                            <span class="author-name" data-i18n="testimonials.review1_name">María G.</span>
+                            <span class="author-title" data-i18n="testimonials.review1_title">Usuario desde hace 3 meses</span>
                         </div>
                     </div>
                 </div>
@@ -422,12 +435,12 @@
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     </div>
-                    <p>"Las alertas del Watch son geniales. Me di cuenta de que apretaba la mandíbula todo el tiempo sin saberlo. Ahora puedo pararlo antes de que empiece a doler."</p>
+                    <p data-i18n="testimonials.review2_text">"Las alertas del Watch son geniales. Me di cuenta de que apretaba la mandíbula todo el tiempo sin saberlo. Ahora puedo pararlo antes de que empiece a doler."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">C</div>
                         <div class="author-info">
-                            <span class="author-name">Carlos R.</span>
-                            <span class="author-title">Usuario desde hace 2 meses</span>
+                            <span class="author-name" data-i18n="testimonials.review2_name">Carlos R.</span>
+                            <span class="author-title" data-i18n="testimonials.review2_title">Usuario desde hace 2 meses</span>
                         </div>
                     </div>
                 </div>
@@ -439,12 +452,12 @@
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                         <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     </div>
-                    <p>"La guía de nutrición fue una sorpresa. No sabía que el chicle era tan malo para el bruxismo. Los smoothies en días de dolor son un salvavidas total."</p>
+                    <p data-i18n="testimonials.review3_text">"La guía de nutrición fue una sorpresa. No sabía que el chicle era tan malo para el bruxismo. Los smoothies en días de dolor son un salvavidas total."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">L</div>
                         <div class="author-info">
-                            <span class="author-name">Laura P.</span>
-                            <span class="author-title">Usuario desde hace 1 mes</span>
+                            <span class="author-name" data-i18n="testimonials.review3_name">Laura P.</span>
+                            <span class="author-title" data-i18n="testimonials.review3_title">Usuario desde hace 1 mes</span>
                         </div>
                     </div>
                 </div>
@@ -456,18 +469,18 @@
     <section id="download" class="download">
         <div class="container">
             <div class="download-content">
-                <h2>Empieza hoy tu camino hacia una mandíbula relajada</h2>
-                <p>Descarga BruxControl gratis y comienza con tu evaluación personalizada. Tu mandíbula te lo agradecerá.</p>
+                <h2 data-i18n="download.title">Empieza hoy tu camino hacia una mandíbula relajada</h2>
+                <p data-i18n="download.subtitle">Descarga BruxControl gratis y comienza con tu evaluación personalizada. Tu mandíbula te lo agradecerá.</p>
                 <div class="download-buttons">
                     <a href="https://apps.apple.com/app/bruxcontrol" class="btn btn-white btn-lg">
                         <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                         </svg>
-                        Descargar en App Store
+                        <span data-i18n="download.cta_appstore">Descargar en App Store</span>
                     </a>
-                    <a href="#pricing" class="btn btn-coral btn-lg">Ver planes Premium</a>
+                    <a href="#pricing" class="btn btn-coral btn-lg" data-i18n="download.cta_premium">Ver planes Premium</a>
                 </div>
-                <p class="download-note">Requiere iOS 17+ y watchOS 10+ · Sin anuncios · Privacidad garantizada</p>
+                <p class="download-note" data-i18n="download.note">Requiere iOS 17+ y watchOS 10+ · Sin anuncios · Privacidad garantizada</p>
             </div>
         </div>
     </section>
@@ -478,27 +491,27 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="images/logo.svg" alt="BruxControl" class="footer-logo">
-                    <p>Tu aliado contra el bruxismo. Tecnología al servicio de tu bienestar mandibular.</p>
+                    <p data-i18n="footer.tagline">Tu aliado contra el bruxismo. Tecnología al servicio de tu bienestar mandibular.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Producto</h4>
+                        <h4 data-i18n="footer.product">Producto</h4>
                         <ul>
-                            <li><a href="#features">Funciones</a></li>
-                            <li><a href="#how-it-works">Cómo funciona</a></li>
-                            <li><a href="#pricing">Precios</a></li>
-                            <li><a href="#download">Descargar</a></li>
+                            <li><a href="#features" data-i18n="nav.features">Funciones</a></li>
+                            <li><a href="#how-it-works" data-i18n="nav.how_it_works">Cómo funciona</a></li>
+                            <li><a href="#pricing" data-i18n="nav.pricing">Precios</a></li>
+                            <li><a href="#download" data-i18n="nav.download_free">Descargar</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>Legal</h4>
+                        <h4 data-i18n="footer.legal">Legal</h4>
                         <ul>
-                            <li><a href="privacy.html">Política de Privacidad</a></li>
-                            <li><a href="terms.html">Términos de Uso</a></li>
+                            <li><a href="privacy.html" data-i18n="footer.privacy">Política de Privacidad</a></li>
+                            <li><a href="terms.html" data-i18n="footer.terms">Términos de Uso</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>Contacto</h4>
+                        <h4 data-i18n="footer.contact">Contacto</h4>
                         <ul>
                             <li><a href="mailto:support@bruxcontrol.com">support@bruxcontrol.com</a></li>
                             <li><a href="mailto:info@bruxcontrol.com">info@bruxcontrol.com</a></li>
@@ -507,7 +520,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 BruxControl. Todos los derechos reservados.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 BruxControl. Todos los derechos reservados.</p>
                 <div class="footer-social">
                     <a href="#" aria-label="Instagram">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
@@ -520,6 +533,7 @@
         </div>
     </footer>
 
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

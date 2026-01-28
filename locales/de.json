@@ -1,0 +1,172 @@
+{
+  "lang": "de",
+  "lang_name": "Deutsch",
+  "dir": "ltr",
+
+  "meta": {
+    "description": "BruxControl - Ihr Verbündeter gegen Bruxismus. Personalisierte Übungen, smartes Apple Watch Tracking und Schmerzlinderungstechniken.",
+    "keywords": "Bruxismus, Kiefergelenk, Zähneknirschen, Kiefer, Übungen, Apple Watch, iOS, Zahngesundheit",
+    "og_title": "BruxControl - Kontrollieren Sie Ihren Bruxismus natürlich",
+    "og_description": "Personalisierte Übungen, Apple Watch Tracking und Linderungstechniken. Ihr Kiefer wird es Ihnen danken.",
+    "twitter_title": "BruxControl - Kontrollieren Sie Ihren Bruxismus",
+    "twitter_description": "Personalisierte Übungen und smartes Apple Watch Tracking",
+    "title": "BruxControl - Kontrollieren Sie Ihren Bruxismus natürlich"
+  },
+
+  "nav": {
+    "features": "Funktionen",
+    "how_it_works": "So funktioniert's",
+    "pricing": "Preise",
+    "testimonials": "Erfahrungen",
+    "download_free": "Kostenlos laden",
+    "menu": "Menü"
+  },
+
+  "hero": {
+    "badge": "Im App Store erhältlich",
+    "title": "Befreien Sie Ihren Kiefer von",
+    "title_highlight": "Bruxismus",
+    "subtitle": "Personalisierte Übungen, smartes Apple Watch Tracking und Schmerzlinderungstechniken. Alles, was Sie brauchen, um dem Bruxismus Lebewohl zu sagen.",
+    "cta_download": "Kostenlos laden",
+    "cta_how": "So funktioniert's",
+    "trust_science": "Wissenschaftlich fundiert",
+    "trust_no_ads": "Keine Werbung",
+    "trust_privacy": "Datenschutz garantiert",
+    "alt_app": "BruxControl App - Dashboard",
+    "alt_watch": "BruxControl auf der Apple Watch"
+  },
+
+  "stats": {
+    "exercises": "Geführte Übungen",
+    "massage": "Selbstmassage-Techniken",
+    "tips": "Tägliche Tipps",
+    "personalized": "Personalisiert"
+  },
+
+  "features": {
+    "badge": "Hauptfunktionen",
+    "title": "Alles für Ihre Kiefergesundheit",
+    "subtitle": "Evidenzbasierte Werkzeuge für die effektive Behandlung von Bruxismus und Kiefergelenkstörungen",
+
+    "assessment_title": "Personalisierte Bewertung",
+    "assessment_desc": "Intelligenter Fragebogen, der Ihre Symptome, Schmerzintensität und Gewohnheiten analysiert, um einen einzigartigen, auf Sie zugeschnittenen Plan zu erstellen.",
+
+    "exercises_title": "Geführte Übungen",
+    "exercises_desc": "4-7-8 Atmung, Goldfisch-Übung, Nackendehnungen und progressive Entspannungstechniken mit Audio und Vibration.",
+
+    "tracking_title": "Smartes Tracking",
+    "tracking_desc": "Dashboard mit Fortschrittsstatistiken, Kieferspannungsgrafiken und täglicher Episodenerfassung.",
+
+    "massage_title": "Geführte Selbstmassage",
+    "massage_desc": "Visuelle Techniken für Masseter, Schläfenmuskel, Nacken und Subokzipitalbereich mit detaillierten Schritt-für-Schritt-Bildern.",
+
+    "nutrition_title": "Ernährungsratgeber",
+    "nutrition_desc": "Empfohlene und zu vermeidende Lebensmittel, nützliche Nahrungsergänzungsmittel wie Magnesium und ein spezielles Protokoll für Tage mit starken Schmerzen.",
+
+    "relief_title": "Linderungsprotokoll",
+    "relief_desc": "Notfalltechniken: N-Ruheposition, Wärme-/Kältetherapie und Atemübungen zur sofortigen Linderung."
+  },
+
+  "screenshots": {
+    "badge": "Galerie",
+    "title": "Entwickelt für Ihr Wohlbefinden",
+    "subtitle": "Intuitive und entspannende Benutzeroberfläche, die Sie bei jedem Schritt Ihrer Genesung begleitet",
+    "label_dashboard": "Haupt-Dashboard",
+    "label_exercises": "Geführte Übungen",
+    "label_watch": "Apple Watch"
+  },
+
+  "how_it_works": {
+    "badge": "So funktioniert's",
+    "title": "Starten Sie in 3 einfachen Schritten",
+    "subtitle": "Beginnen Sie Ihren Weg zu einem entspannten Kiefer in weniger als 5 Minuten",
+
+    "step1_title": "Füllen Sie die Bewertung aus",
+    "step1_desc": "Ein 3-minütiger Fragebogen analysiert Ihre Symptome, Schmerzintensität, Bruxismus-Muster und Lebensstil, um Ihre Situation zu verstehen.",
+
+    "step2_title": "Erhalten Sie Ihren personalisierten Plan",
+    "step2_desc": "Die App wählt automatisch die am besten geeigneten Übungen aus und vermeidet solche, die Ihre spezifischen Symptome verschlimmern könnten.",
+
+    "step3_title": "Üben und verbessern",
+    "step3_desc": "Folgen Sie Ihrer täglichen Routine, erhalten Sie smarte Erinnerungen auf Ihrer Apple Watch und verfolgen Sie Ihren Fortschritt im Dashboard."
+  },
+
+  "watch": {
+    "badge": "Apple Watch",
+    "title": "Ihr Begleiter am Handgelenk",
+    "subtitle": "Die Apple Watch hilft Ihnen, den ganzen Tag über auf Ihren Kiefer zu achten, mit zufälligen, intelligenten Benachrichtigungen, die Sie daran erinnern, sich zu entspannen.",
+    "feature1": "Zufällige Benachrichtigungen zur Kieferkontrolle",
+    "feature2": "Schnelle Statuserfassung mit einem Tippen",
+    "feature3": "Geführte Atemübung mit Vibration",
+    "feature4": "Personalisiertes entspannendes haptisches Feedback",
+    "alt_watch": "Apple Watch mit BruxControl zeigt Kieferstatus"
+  },
+
+  "pricing": {
+    "badge": "Preise",
+    "title": "Schalten Sie alle Funktionen von BruxControl frei",
+    "subtitle": "Starten Sie kostenlos und schalten Sie den vollen Zugang mit einer einmaligen Zahlung frei",
+
+    "free_title": "Kostenlos",
+    "free_price": "0€",
+    "free_subtitle": "Um Ihre Reise zu beginnen",
+    "free_feature1": "Vollständige personalisierte Bewertung",
+    "free_feature2": "Grundlegende Kieferübungen",
+    "free_feature3": "2 Selbstmassage-Anleitungen (Masseter und Schläfenmuskel)",
+    "free_feature4": "Manuelle Statuserfassung",
+    "free_feature5": "Grundlegende Statistiken",
+    "free_cta": "Kostenlos starten",
+
+    "premium_badge": "50% RABATT",
+    "premium_title": "Premium",
+    "premium_price": "29€",
+    "premium_price_original": "58€",
+    "premium_subtitle": "Einmalzahlung · Lebenslanger Zugang",
+    "premium_feature0": "Alles aus Kostenlos +",
+    "premium_feature1": "15+ personalisierte Übungen",
+    "premium_feature2": "5 vollständige Selbstmassage-Anleitungen",
+    "premium_feature3": "Smarte Apple Watch Benachrichtigungen",
+    "premium_feature4": "Anti-Bruxismus Ernährungsratgeber",
+    "premium_feature5": "Schmerzlinderungsprotokolle",
+    "premium_feature6": "Verlauf und erweiterte Analysen",
+    "premium_cta": "Für 29€ freischalten",
+
+    "footer_note": "Keine Abonnements · Keine wiederkehrenden Zahlungen · Für immer Ihres"
+  },
+
+  "testimonials": {
+    "badge": "Erfahrungen",
+    "title": "Was unsere Nutzer sagen",
+    "subtitle": "Tausende von Menschen haben ihre Lebensqualität mit BruxControl bereits verbessert",
+
+    "review1_text": "Nach Jahren mit Kieferschmerzen hat mir diese App geholfen, mir bewusst zu werden, wann ich mit den Zähnen presse. Die Übungen sind leicht zu befolgen und funktionieren wirklich.",
+    "review1_name": "Maria G.",
+    "review1_title": "Nutzerin seit 3 Monaten",
+
+    "review2_text": "Die Watch-Benachrichtigungen sind fantastisch. Ich habe gemerkt, dass ich meinen Kiefer ständig anspannte, ohne es zu wissen. Jetzt kann ich es stoppen, bevor es anfängt zu schmerzen.",
+    "review2_name": "Carlos R.",
+    "review2_title": "Nutzer seit 2 Monaten",
+
+    "review3_text": "Der Ernährungsratgeber war eine Überraschung. Ich wusste nicht, dass Kaugummi so schlecht für Bruxismus ist. Smoothies an Schmerztagen sind ein echter Lebensretter.",
+    "review3_name": "Laura P.",
+    "review3_title": "Nutzerin seit 1 Monat"
+  },
+
+  "download": {
+    "title": "Beginnen Sie heute Ihre Reise zu einem entspannten Kiefer",
+    "subtitle": "Laden Sie BruxControl kostenlos herunter und starten Sie Ihre personalisierte Bewertung. Ihr Kiefer wird es Ihnen danken.",
+    "cta_appstore": "Im App Store laden",
+    "cta_premium": "Premium-Pläne ansehen",
+    "note": "Erfordert iOS 17+ und watchOS 10+ · Keine Werbung · Datenschutz garantiert"
+  },
+
+  "footer": {
+    "tagline": "Ihr Verbündeter gegen Bruxismus. Technologie im Dienste Ihres Kieferwohlbefindens.",
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© 2025 BruxControl. Alle Rechte vorbehalten."
+  }
+}
