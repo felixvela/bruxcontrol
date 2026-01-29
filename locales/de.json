@@ -160,6 +160,22 @@
     "note": "Erfordert iOS 17+ und watchOS 10+ · Keine Werbung · Datenschutz garantiert"
   },
 
+  "faq": {
+    "badge": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles, was Sie über Bruxismus und BruxControl wissen müssen",
+    "q1": "Was ist Bruxismus?",
+    "a1": "Bruxismus ist die unwillkürliche Gewohnheit, mit den Zähnen zu knirschen oder sie zusammenzupressen, besonders während des Schlafs oder in stressigen Momenten. Er kann Kieferschmerzen, Kopfschmerzen, Zahnverschleiß und Kiefergelenkstörungen verursachen.",
+    "q2": "Wie funktioniert BruxControl?",
+    "a2": "BruxControl verwendet einen 3-minütigen Fragebogen, um Ihre Symptome zu bewerten und einen personalisierten Plan zu erstellen. Die App enthält geführte Übungen, Selbstmassagetechniken, und die Apple Watch sendet zufällige Benachrichtigungen, um Sie daran zu erinnern, Ihren Kiefer zu entspannen.",
+    "q3": "Brauche ich eine Apple Watch, um BruxControl zu nutzen?",
+    "a3": "Nein, die Apple Watch ist optional. Die App funktioniert vollständig auf dem iPhone mit allen Übungen, Tracking und Anleitungen. Die Apple Watch fügt intelligente Benachrichtigungen und schnelle Statuserfassung hinzu.",
+    "q4": "Wie viel kostet BruxControl Premium?",
+    "a4": "BruxControl Premium kostet 29€ als einmalige Zahlung mit lebenslangem Zugang. Es gibt keine Abonnements oder wiederkehrenden Zahlungen. Die kostenlose Version enthält die vollständige Bewertung, Grundübungen und 2 Selbstmassage-Anleitungen.",
+    "q5": "Basieren die BruxControl-Übungen auf wissenschaftlichen Erkenntnissen?",
+    "a5": "Ja, alle Übungen und Techniken in BruxControl basieren auf wissenschaftlichen Erkenntnissen und empfohlenen Protokollen für die Behandlung von Kiefergelenkstörungen (CMD) und Bruxismus."
+  },
+
   "footer": {
     "tagline": "Ihr Verbündeter gegen Bruxismus. Technologie im Dienste Ihres Kieferwohlbefindens.",
     "product": "Produkt",

@@ -160,6 +160,22 @@
     "note": "Requires iOS 17+ and watchOS 10+ · No ads · Privacy guaranteed"
   },
 
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about bruxism and BruxControl",
+    "q1": "What is bruxism?",
+    "a1": "Bruxism is the involuntary habit of grinding or clenching teeth, especially during sleep or stressful moments. It can cause jaw pain, headaches, tooth wear, and temporomandibular joint (TMJ) disorders.",
+    "q2": "How does BruxControl work?",
+    "a2": "BruxControl uses a 3-minute questionnaire to assess your symptoms and create a personalized plan. The app includes guided exercises, self-massage techniques, and Apple Watch sends random alerts to remind you to relax your jaw throughout the day.",
+    "q3": "Do I need an Apple Watch to use BruxControl?",
+    "a3": "No, Apple Watch is optional. The app works completely on iPhone with all exercises, tracking, and guides. Apple Watch adds smart alerts and quick status logging for jaw awareness.",
+    "q4": "How much does BruxControl Premium cost?",
+    "a4": "BruxControl Premium costs $29 as a one-time payment with lifetime access. There are no subscriptions or recurring payments. The free version includes complete assessment, basic exercises, and 2 self-massage guides.",
+    "q5": "Are BruxControl exercises based on scientific evidence?",
+    "a5": "Yes, all exercises and techniques in BruxControl are based on scientific evidence and recommended protocols for managing temporomandibular disorders (TMD) and bruxism."
+  },
+
   "footer": {
     "tagline": "Your ally against bruxism. Technology at the service of your jaw wellness.",
     "product": "Product",

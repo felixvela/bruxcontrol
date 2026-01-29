@@ -160,6 +160,22 @@
     "note": "Nécessite iOS 17+ et watchOS 10+ · Sans publicité · Confidentialité garantie"
   },
 
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur le bruxisme et BruxControl",
+    "q1": "Qu'est-ce que le bruxisme ?",
+    "a1": "Le bruxisme est l'habitude involontaire de grincer ou serrer les dents, surtout pendant le sommeil ou les moments de stress. Il peut causer des douleurs à la mâchoire, des maux de tête, une usure dentaire et des troubles de l'articulation temporo-mandibulaire (ATM).",
+    "q2": "Comment fonctionne BruxControl ?",
+    "a2": "BruxControl utilise un questionnaire de 3 minutes pour évaluer vos symptômes et créer un plan personnalisé. L'application comprend des exercices guidés, des techniques d'auto-massage, et l'Apple Watch envoie des alertes aléatoires pour vous rappeler de détendre votre mâchoire tout au long de la journée.",
+    "q3": "Ai-je besoin d'une Apple Watch pour utiliser BruxControl ?",
+    "a3": "Non, l'Apple Watch est optionnelle. L'application fonctionne entièrement sur iPhone avec tous les exercices, le suivi et les guides. L'Apple Watch ajoute des alertes intelligentes et un enregistrement rapide de l'état de votre mâchoire.",
+    "q4": "Combien coûte BruxControl Premium ?",
+    "a4": "BruxControl Premium coûte 29€ en paiement unique avec accès à vie. Il n'y a pas d'abonnements ni de paiements récurrents. La version gratuite inclut l'évaluation complète, les exercices de base et 2 guides d'auto-massage.",
+    "q5": "Les exercices de BruxControl sont-ils basés sur des preuves scientifiques ?",
+    "a5": "Oui, tous les exercices et techniques de BruxControl sont basés sur des preuves scientifiques et des protocoles recommandés pour la gestion des troubles temporo-mandibulaires (TTM) et du bruxisme."
+  },
+
   "footer": {
     "tagline": "Votre allié contre le bruxisme. La technologie au service du bien-être de votre mâchoire.",
     "product": "Produit",

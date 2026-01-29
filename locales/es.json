@@ -160,6 +160,22 @@
     "note": "Requiere iOS 17+ y watchOS 10+ · Sin anuncios · Privacidad garantizada"
   },
 
+  "faq": {
+    "badge": "FAQ",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre el bruxismo y BruxControl",
+    "q1": "¿Qué es el bruxismo?",
+    "a1": "El bruxismo es el hábito involuntario de rechinar o apretar los dientes, especialmente durante el sueño o en momentos de estrés. Puede causar dolor mandibular, dolores de cabeza, desgaste dental y trastornos de la articulación temporomandibular (ATM).",
+    "q2": "¿Cómo funciona BruxControl?",
+    "a2": "BruxControl utiliza un cuestionario de 3 minutos para evaluar tus síntomas y crear un plan personalizado. La app incluye ejercicios guiados, técnicas de automasaje, y el Apple Watch envía alertas aleatorias para recordarte relajar la mandíbula durante el día.",
+    "q3": "¿Necesito un Apple Watch para usar BruxControl?",
+    "a3": "No, el Apple Watch es opcional. La app funciona completamente en iPhone con todos los ejercicios, seguimiento y guías. El Apple Watch añade alertas inteligentes y registro rápido del estado de tu mandíbula.",
+    "q4": "¿Cuánto cuesta BruxControl Premium?",
+    "a4": "BruxControl Premium cuesta 29€ como pago único con acceso de por vida. No hay suscripciones ni pagos recurrentes. La versión gratuita incluye evaluación completa, ejercicios básicos y 2 guías de automasaje.",
+    "q5": "¿Los ejercicios de BruxControl están basados en evidencia científica?",
+    "a5": "Sí, todos los ejercicios y técnicas de BruxControl están basados en evidencia científica y protocolos recomendados para el manejo de trastornos temporomandibulares (TTM) y bruxismo."
+  },
+
   "footer": {
     "tagline": "Tu aliado contra el bruxismo. Tecnología al servicio de tu bienestar mandibular.",
     "product": "Producto",
