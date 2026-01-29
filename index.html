@@ -44,13 +44,19 @@
 
     <title>BruxControl - Controla tu bruxismo de forma natural</title>
 
-    <link rel="stylesheet" href="css/styles.css?v=20260128c">
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="css/styles.css?v=20260129" as="style">
+    <link rel="preload" href="images/app-screenshot.png" as="image">
+    <link rel="preload" href="images/logo.svg" as="image">
+
+    <link rel="stylesheet" href="css/styles.css?v=20260129">
     <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts - Optimized Loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -197,8 +203,11 @@
         </div>
     </nav>
 
+    <!-- Main Content -->
+    <main id="main-content">
+
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
         <div class="hero-decoration hero-decoration-1"></div>
         <div class="hero-decoration hero-decoration-2"></div>
         <div class="container">
@@ -207,7 +216,7 @@
                     <span class="badge-dot"></span>
                     <span data-i18n="hero.badge">Disponible en App Store</span>
                 </div>
-                <h1><span data-i18n="hero.title">Libera tu mandíbula del</span> <span class="highlight" data-i18n="hero.title_highlight">bruxismo</span></h1>
+                <h1 id="hero-title"><span data-i18n="hero.title">Libera tu mandíbula del</span> <span class="highlight" data-i18n="hero.title_highlight">bruxismo</span></h1>
                 <p class="hero-subtitle" data-i18n="hero.subtitle">Ejercicios personalizados, seguimiento inteligente con Apple Watch y técnicas de alivio del dolor. Todo lo que necesitas para decir adiós al bruxismo.</p>
                 <div class="hero-cta">
                     <a href="#download" class="btn btn-primary btn-lg">
@@ -274,14 +283,14 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
+    <section id="features" class="features" aria-labelledby="features-title">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                     <span data-i18n="features.badge">Funciones principales</span>
                 </span>
-                <h2 data-i18n="features.title">Todo para tu salud mandibular</h2>
+                <h2 id="features-title" data-i18n="features.title">Todo para tu salud mandibular</h2>
                 <p data-i18n="features.subtitle">Herramientas basadas en evidencia científica para el manejo efectivo del bruxismo y trastornos temporomandibulares</p>
             </div>
             <div class="features-grid">
@@ -363,15 +372,15 @@
             </div>
             <div class="screenshots-showcase">
                 <div class="screenshot-item">
-                    <img src="images/app-screenshot.png" alt="Dashboard de BruxControl">
+                    <img src="images/app-screenshot.png" alt="Dashboard de BruxControl" loading="lazy">
                     <div class="screenshot-label" data-i18n="screenshots.label_dashboard">Dashboard Principal</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/dashboard.png" alt="Ejercicios personalizados">
+                    <img src="images/dashboard.png" alt="Ejercicios personalizados" loading="lazy">
                     <div class="screenshot-label" data-i18n="screenshots.label_exercises">Ejercicios Guiados</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/watch-main.png" alt="Apple Watch App">
+                    <img src="images/watch-main.png" alt="Apple Watch App" loading="lazy">
                     <div class="screenshot-label" data-i18n="screenshots.label_watch">Apple Watch</div>
                 </div>
             </div>
@@ -379,14 +388,14 @@
     </section>
 
     <!-- How it Works -->
-    <section id="how-it-works" class="how-it-works">
+    <section id="how-it-works" class="how-it-works" aria-labelledby="how-it-works-title">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                     <span data-i18n="how_it_works.badge">Cómo funciona</span>
                 </span>
-                <h2 data-i18n="how_it_works.title">Empieza en 3 simples pasos</h2>
+                <h2 id="how-it-works-title" data-i18n="how_it_works.title">Empieza en 3 simples pasos</h2>
                 <p data-i18n="how_it_works.subtitle">Comienza tu camino hacia una mandíbula relajada en menos de 5 minutos</p>
             </div>
             <div class="steps-container">
@@ -441,20 +450,20 @@
                 </ul>
             </div>
             <div class="watch-image">
-                <img src="images/watch-hero.png" alt="Apple Watch con BruxControl mostrando estado de mandíbula" data-i18n-alt="watch.alt_watch">
+                <img src="images/watch-hero.png" alt="Apple Watch con BruxControl mostrando estado de mandíbula" data-i18n-alt="watch.alt_watch" loading="lazy">
             </div>
         </div>
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
                     <span data-i18n="pricing.badge">Precios</span>
                 </span>
-                <h2 data-i18n="pricing.title">Desbloquea todo BruxControl</h2>
+                <h2 id="pricing-title" data-i18n="pricing.title">Desbloquea todo BruxControl</h2>
                 <p data-i18n="pricing.subtitle">Empieza gratis y desbloquea el acceso completo con un único pago</p>
             </div>
             <div class="pricing-grid">
@@ -531,14 +540,14 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" aria-labelledby="testimonials-title">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     <span data-i18n="testimonials.badge">Testimonios</span>
                 </span>
-                <h2 data-i18n="testimonials.title">Lo que dicen nuestros usuarios</h2>
+                <h2 id="testimonials-title" data-i18n="testimonials.title">Lo que dicen nuestros usuarios</h2>
                 <p data-i18n="testimonials.subtitle">Miles de personas ya han mejorado su calidad de vida con BruxControl</p>
             </div>
             <div class="testimonials-grid">
@@ -598,7 +607,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq" aria-labelledby="faq-title">
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">
@@ -609,7 +618,7 @@
                     </svg>
                     <span data-i18n="faq.badge">FAQ</span>
                 </span>
-                <h2 data-i18n="faq.title">Frequently Asked Questions</h2>
+                <h2 id="faq-title" data-i18n="faq.title">Frequently Asked Questions</h2>
                 <p data-i18n="faq.subtitle">Everything you need to know about bruxism and BruxControl</p>
             </div>
             <div class="faq-list">
@@ -656,6 +665,8 @@
             </div>
         </div>
     </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
