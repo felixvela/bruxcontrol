@@ -7,6 +7,7 @@ const I18n = {
     currentLang: 'en',
     translations: {},
     supportedLangs: ['es', 'en', 'fr', 'de', 'it', 'pt', 'ja'],
+    version: '2', // Cache busting version
 
     /**
      * Initialize the i18n system
@@ -61,7 +62,7 @@ const I18n = {
      */
     async loadTranslations(lang) {
         try {
-            const response = await fetch(`locales/${lang}.json`);
+            const response = await fetch(`locales/${lang}.json?v=${this.version}`);
             if (!response.ok) throw new Error(`Failed to load ${lang}`);
             this.translations = await response.json();
             this.currentLang = lang;
