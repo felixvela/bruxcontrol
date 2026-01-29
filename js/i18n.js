@@ -4,7 +4,7 @@
  */
 
 const I18n = {
-    currentLang: 'es',
+    currentLang: 'en',
     translations: {},
     supportedLangs: ['es', 'en', 'fr', 'de', 'it', 'pt', 'ja'],
 
@@ -52,8 +52,8 @@ const I18n = {
             return browserLang;
         }
 
-        // 4. Default to Spanish
-        return 'es';
+        // 4. Default to English
+        return 'en';
     },
 
     /**
@@ -68,9 +68,9 @@ const I18n = {
             localStorage.setItem('bruxcontrol_lang', lang);
         } catch (error) {
             console.error('Error loading translations:', error);
-            // Fallback to Spanish
-            if (lang !== 'es') {
-                await this.loadTranslations('es');
+            // Fallback to English
+            if (lang !== 'en') {
+                await this.loadTranslations('en');
             }
         }
     },
