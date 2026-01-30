@@ -9,17 +9,16 @@ BruxControl is a mobile health application for iOS and watchOS designed to help 
 - **Platforms**: iOS 17+, watchOS 10+
 - **Languages**: Spanish, English, French, German, Italian, Portuguese, Japanese
 - **Website**: https://bruxcontrol.com
-- **App Store**: https://apps.apple.com/app/bruxcontrol
+- **App Store**: https://apps.apple.com/us/app/bruxcontrol/id6758412940
 
 ## Pricing
-- **Free tier**: Personalized assessment, basic jaw exercises, 2 self-massage guides (masseter and temporal), manual status logging, basic statistics
+- **Free tier**: Personalized assessment, 3 basic exercises (breathing, goldfish, tongue posture), 2 self-massage guides (masseter and temporal), manual status logging, basic statistics
 - **Premium**: EUR 29 one-time payment for lifetime access
-  - 15+ personalized exercises
-  - 5 complete self-massage guides
+  - 6 guided exercises total
+  - 5 self-massage guides
   - Smart Apple Watch alerts
   - Anti-bruxism nutrition guide
   - Pain relief protocols
-  - History and advanced analytics
 
 ## Core Features
 1. **Personalized Assessment**: 3-minute questionnaire analyzing symptoms, pain level, and habits
