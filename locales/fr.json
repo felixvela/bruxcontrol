@@ -18,7 +18,7 @@
     "how_it_works": "Comment ça marche",
     "pricing": "Tarifs",
     "testimonials": "Témoignages",
-    "download_free": "Télécharger gratuitement",
+    "download_free": "Télécharger",
     "menu": "Menu"
   },
 
@@ -119,8 +119,8 @@
 
     "premium_badge": "-50%",
     "premium_title": "Premium",
-    "premium_price": "29€",
-    "premium_price_original": "58€",
+    "premium_price": "29,99€",
+    "premium_price_original": "59,99€",
     "premium_subtitle": "Paiement unique · Accès à vie",
     "premium_feature0": "Tout le contenu Gratuit +",
     "premium_feature1": "6 exercices guidés",
@@ -128,7 +128,7 @@
     "premium_feature3": "Alertes intelligentes sur Apple Watch",
     "premium_feature4": "Guide nutritionnel anti-bruxisme",
     "premium_feature5": "Protocoles de soulagement de la douleur",
-    "premium_cta": "Débloquer pour 29€",
+    "premium_cta": "Débloquer pour 29,99€",
 
     "footer_note": "Sans abonnement · Sans paiements récurrents · À vous pour toujours"
   },

@@ -18,7 +18,7 @@
     "how_it_works": "Cómo funciona",
     "pricing": "Precios",
     "testimonials": "Testimonios",
-    "download_free": "Descargar Gratis",
+    "download_free": "Descargar",
     "menu": "Menú"
   },
 
@@ -119,8 +119,8 @@
 
     "premium_badge": "50% DESCUENTO",
     "premium_title": "Premium",
-    "premium_price": "29€",
-    "premium_price_original": "58€",
+    "premium_price": "29,99€",
+    "premium_price_original": "59,99€",
     "premium_subtitle": "Pago único · Acceso de por vida",
     "premium_feature0": "Todo lo gratis +",
     "premium_feature1": "6 ejercicios guiados",
@@ -128,7 +128,7 @@
     "premium_feature3": "Alertas inteligentes en Apple Watch",
     "premium_feature4": "Guía de nutrición anti-bruxismo",
     "premium_feature5": "Protocolos de alivio del dolor",
-    "premium_cta": "Desbloquear por 29€",
+    "premium_cta": "Desbloquear por 29,99€",
 
     "footer_note": "Sin suscripciones · Sin pagos recurrentes · Tuyo para siempre"
   },
@@ -170,7 +170,7 @@
     "q3": "¿Necesito un Apple Watch para usar BruxControl?",
     "a3": "No, el Apple Watch es opcional. La app funciona completamente en iPhone con todos los ejercicios, seguimiento y guías. El Apple Watch añade alertas inteligentes y registro rápido del estado de tu mandíbula.",
     "q4": "¿Cuánto cuesta BruxControl Premium?",
-    "a4": "BruxControl Premium cuesta 29€ como pago único con acceso de por vida. No hay suscripciones ni pagos recurrentes. La versión gratuita incluye evaluación completa, ejercicios básicos y 2 guías de automasaje.",
+    "a4": "BruxControl Premium cuesta 29,99€ como pago único con acceso de por vida. No hay suscripciones ni pagos recurrentes. La versión gratuita incluye evaluación completa, ejercicios básicos y 2 guías de automasaje.",
     "q5": "¿Los ejercicios de BruxControl están basados en evidencia científica?",
     "a5": "Sí, todos los ejercicios y técnicas de BruxControl están basados en evidencia científica y protocolos recomendados para el manejo de trastornos temporomandibulares (TTM) y bruxismo."
   },

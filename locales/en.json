@@ -18,7 +18,7 @@
     "how_it_works": "How it works",
     "pricing": "Pricing",
     "testimonials": "Testimonials",
-    "download_free": "Download Free",
+    "download_free": "Download",
     "menu": "Menu"
   },
 
@@ -119,8 +119,8 @@
 
     "premium_badge": "50% OFF",
     "premium_title": "Premium",
-    "premium_price": "$29",
-    "premium_price_original": "$58",
+    "premium_price": "$29.99",
+    "premium_price_original": "$59.99",
     "premium_subtitle": "One-time payment · Lifetime access",
     "premium_feature0": "Everything in Free +",
     "premium_feature1": "6 guided exercises",
@@ -128,7 +128,7 @@
     "premium_feature3": "Smart Apple Watch alerts",
     "premium_feature4": "Anti-bruxism nutrition guide",
     "premium_feature5": "Pain relief protocols",
-    "premium_cta": "Unlock for $29",
+    "premium_cta": "Unlock for $29.99",
 
     "footer_note": "No subscriptions · No recurring payments · Yours forever"
   },
@@ -170,7 +170,7 @@
     "q3": "Do I need an Apple Watch to use BruxControl?",
     "a3": "No, Apple Watch is optional. The app works completely on iPhone with all exercises, tracking, and guides. Apple Watch adds smart alerts and quick status logging for jaw awareness.",
     "q4": "How much does BruxControl Premium cost?",
-    "a4": "BruxControl Premium costs $29 as a one-time payment with lifetime access. There are no subscriptions or recurring payments. The free version includes complete assessment, basic exercises, and 2 self-massage guides.",
+    "a4": "BruxControl Premium costs $29.99 as a one-time payment with lifetime access. There are no subscriptions or recurring payments. The free version includes complete assessment, basic exercises, and 2 self-massage guides.",
     "q5": "Are BruxControl exercises based on scientific evidence?",
     "a5": "Yes, all exercises and techniques in BruxControl are based on scientific evidence and recommended protocols for managing temporomandibular disorders (TMD) and bruxism."
   },

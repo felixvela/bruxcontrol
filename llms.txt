@@ -13,7 +13,7 @@ BruxControl is a mobile health application for iOS and watchOS designed to help 
 
 ## Pricing
 - **Free tier**: Personalized assessment, 3 basic exercises (breathing, goldfish, tongue posture), 2 self-massage guides (masseter and temporal), manual status logging, basic statistics
-- **Premium**: EUR 29 one-time payment for lifetime access
+- **Premium**: EUR 29.99 one-time payment for lifetime access
   - 6 guided exercises total
   - 5 self-massage guides
   - Smart Apple Watch alerts
@@ -60,7 +60,7 @@ BruxControl uses a 3-minute questionnaire to assess your symptoms and create a p
 No, Apple Watch is optional. The app works completely on iPhone with all exercises, tracking, and guides. Apple Watch adds smart alerts and quick status logging for jaw awareness.
 
 ### How much does BruxControl Premium cost?
-BruxControl Premium costs 29 euros as a one-time payment with lifetime access. There are no subscriptions or recurring payments. The free version includes complete assessment, basic exercises, and 2 self-massage guides.
+BruxControl Premium costs 29.99 euros as a one-time payment with lifetime access. There are no subscriptions or recurring payments. The free version includes complete assessment, basic exercises, and 2 self-massage guides.
 
 ### Are BruxControl exercises based on scientific evidence?
 Yes, all exercises and techniques in BruxControl are based on scientific evidence and recommended protocols for managing temporomandibular disorders (TMD) and bruxism.
